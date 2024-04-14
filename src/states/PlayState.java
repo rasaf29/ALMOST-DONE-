@@ -22,7 +22,7 @@ public class PlayState extends GameState{
         super(gsm);
         map = new Vector2f();
         Vector2f.setWorldVar(map.x, map.y);
-        tm = new TileManager("tile/NIVELUL1.xml");
+        tm = new TileManager("tile/NIVELUL1_1.xml");
         font = new Font("font/RedWood.png", 15 , 25);
         player = new Player(new Sprite("entity/Dorian.png"), new Vector2f(0 + (GamePanel.width / 2) - 200, 0 + (GamePanel.height / 2) + 50), 120);
     }

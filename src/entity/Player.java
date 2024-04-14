@@ -14,8 +14,8 @@ public class Player extends Entity{
     public Player(Sprite sprite, Vector2f origin, int size) {
 
         super(sprite, origin, size);
-        acc = 2f;
-        maxSpeed =3f;
+        acc = 3f;
+        maxSpeed =4.2f;
         bounds.setWidth(50);
         bounds.setHeight(50);
         bounds.setxOffset(35);
@@ -65,13 +65,13 @@ public class Player extends Entity{
         if(!bounds.collisionTiles(dx, 0)) {// collisionTile
             PlayState.map.x += dx;
             pos.x += dx;
-            //bounds.pos.x = dx;
+
 
         }
         if(!bounds.collisionTiles(0,dy)) {
             PlayState.map.y += dy;
             pos.y += dy;
-            //bounds.pos.y = dy;
+
         }
     }
     @Override

@@ -41,9 +41,9 @@ public abstract class Entity {
     protected int attackDuration;
 
     protected float dx, dy;
-    protected float maxSpeed = 3f;
-    protected float acc = 2.5f;
-    protected float deacc = 0.8f;
+    protected float maxSpeed = 4f;
+    protected float acc = 3f;
+    protected float deacc = 1f;
 
     protected AABB hitBounds;
     public AABB bounds;
