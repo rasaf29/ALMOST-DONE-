@@ -14,8 +14,8 @@ public class Player extends Entity{
     public Player(Sprite sprite, Vector2f origin, int size) {
 
         super(sprite, origin, size);
-        acc = 3f;
-        maxSpeed =4.2f;
+        acc =3f;
+        maxSpeed =4.15f;
         bounds.setWidth(50);
         bounds.setHeight(50);
         bounds.setxOffset(35);

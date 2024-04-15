@@ -111,7 +111,7 @@ public class GamePanel extends JPanel implements  Runnable{
         }
 
     }
-    private int x = 0;
+
 
     private void update() {
         gsm.update();
@@ -121,7 +121,7 @@ public class GamePanel extends JPanel implements  Runnable{
     }
     private void render() {
         if ( g != null) {
-            g.setColor(new Color(100,50,50));
+            g.setColor(new Color(0,0,0));
             g.fillRect(0,0, width, height);
             gsm.render(g);
         }
